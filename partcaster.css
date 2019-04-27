@@ -1,0 +1,22 @@
+body{
+   border: 2px dotted black;
+   margin: 2% 10% 2% 10%;
+   padding: 0px 20px 0px 20px;
+}
+h1 {
+   text-align: center;
+}
+p.why {
+   text-align: center;
+}
+.center { /*center and image */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-radius: 8px;
+}
+img {
+   max-width: 100%; /* responsive imagek, scales down but */
+   height: auto;    /* doesn't go over original size */
+}
