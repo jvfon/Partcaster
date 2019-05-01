@@ -2,9 +2,14 @@ body{
    border: 2px dotted black;
    margin: 2% 10% 2% 10%;
    padding: 0px 20px 0px 20px;
+   font-size: medium;
 }
 h1 {
    text-align: center;
+   font-size: 220%;
+}
+h3 {
+  font=size: 130%;
 }
 p.why {
    text-align: center;
@@ -19,4 +24,13 @@ p.why {
 img {
    max-width: 100%; /* responsive imagek, scales down but */
    height: auto;    /* doesn't go over original size */
+}
+.history {
+  background-color: #FAEB9D;
+  padding: 15px 30px;
+  margin: 50px;
+  line-height: 1.6em;
+  border-style: dashed;
+  border-color: white;
+  border-width: thick;
 }
