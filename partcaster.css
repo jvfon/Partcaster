@@ -25,12 +25,16 @@ img {
    max-width: 100%; /* responsive imagek, scales down but */
    height: auto;    /* doesn't go over original size */
 }
-.history {
+#history {
+  width: 200px;
   background-color: #FAEB9D;
-  padding: 15px 30px;
-  margin: 50px;
+  padding: 0px 15px;
+  margin: 10px;
   line-height: 1.6em;
   border-style: dashed;
   border-color: white;
   border-width: thick;
 }
+/* #platform {
+  width: 200px;
+} */
