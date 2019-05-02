@@ -40,11 +40,14 @@ img {
   width: 200px;
 } */
 a:link {
-  color: black;
+  color: darkblue;
+  text-decoration: none;
 }
 a:visited {
   color: red;
+  text-decoration: none;
 }
 a:hover {
   color: green;
+  text-decoration: none;
 }
