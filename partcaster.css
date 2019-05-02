@@ -34,7 +34,17 @@ img {
   border-style: dashed;
   border-color: white;
   border-width: thick;
+  float: left;
 }
 /* #platform {
   width: 200px;
 } */
+a:link {
+  color: black;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
+}
