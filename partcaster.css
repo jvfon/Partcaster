@@ -1,6 +1,6 @@
 body{
    border: 2px dotted black;
-   margin: 2% 10% 2% 10%;
+   margin: 2% 5% 2% 5%;
    padding: 0px 20px 0px 20px;
    font-size: medium;
 }
@@ -14,17 +14,25 @@ h3 {
 p.why {
    text-align: center;
 }
-.center { /*center and image */
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
-   border-radius: 8px;
+
+#body {
+  width: 15%;
+  height: auto;
+
+  margin: 10px;
 }
-img {
-   max-width: 100%; /* responsive imagek, scales down but */
-   height: auto;    /* doesn't go over original size */
+#guitar {
+   max-width: 20%;
+   height: auto;
+   margin: 10px;
+
 }
+#necks {
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+
 #history {
   width: 200px;
   background-color: #FAEB9D;
@@ -36,9 +44,10 @@ img {
   border-width: thick;
   float: left;
 }
-/* #platform {
-  width: 200px;
-} */
+ #platform {
+  margin-top: 50px;
+  padding-top: 50px
+}
 a:link {
   color: darkblue;
   text-decoration: none;
