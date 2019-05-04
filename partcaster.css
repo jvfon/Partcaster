@@ -15,42 +15,48 @@ p.why {
    text-align: center;
 }
 
+/* #pics {
+  margin: 50px;
+}*/
 #body {
   width: 15%;
   height: auto;
-
-  margin: 10px;
+  float: left;
+  margin: 0px 68px;
 }
 #guitar {
    max-width: 20%;
    height: auto;
-   margin: 10px;
 
+   margin: 0px 68px;
 }
 #necks {
   width: 20%;
   height: auto;
-  margin: 10px;
+
+  margin: 0px 68px;
 }
 
 #history {
-  width: 200px;
+  width: 400px;
   background-color: #FAEB9D;
   padding: 0px 15px;
-  margin: 10px;
+  margin: 0px 10px 10px 470px;
   line-height: 1.6em;
   border-style: dashed;
   border-color: white;
   border-width: thick;
-  float: left;
 }
  #platform {
-  margin-top: 50px;
-  padding-top: 50px
+  width: 400px;
+  margin-top: 0px 10px 10px 10px;;
+  padding: 0px 10px 10px 10px;
+  float: left;
 }
 a:link {
-  color: darkblue;
+  color: black;
   text-decoration: none;
+  border-bottom: thin dotted black;
 }
 a:visited {
   color: red;
