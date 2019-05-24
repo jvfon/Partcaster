@@ -3,6 +3,11 @@
 <head>
    <title>Hail To The Partcaster</title>
    <link href="partcaster.css" rel="stylesheet" type="text/css">
+   <script>
+      function favGuitar() {
+         prompt("What's your favorite guitar?", "My favorite guitar is...");
+      }
+   </script>
 </head>
 <body>
     <div id="allcontent">
@@ -16,7 +21,7 @@
          <img id="guitar" src="img/strat.jpg" alt="strat" class="center">
          <img id="necks" src="img/stratNecks.jpg" alt="strat neck">
        </div>
-
+    <div id=
        <div id="history">
          <h3>A Bit Of History</h3>
          <p>The Fender Stratocaster first came to light in
@@ -27,7 +32,7 @@
       </div>
       <div id="platform">
        <h3>A Modding Platform</h3>
-       <p>
+       <p onmouseover="favGuitar()">
           The Strat was designed to be easily mass produced. Because of this
           it is also easy for other manufacturers to recreate this iconic
           instrument. Today aftermarket companies like <a href="http://www.warmoth.com/" target="_blank">Warmoth</a>,
