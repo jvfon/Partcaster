@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html onkeypress="sniffer('you pressed a key')">
 <head>
    <title>Hail To The Partcaster</title>
    <link href="partcaster.css" rel="stylesheet" type="text/css">
@@ -13,10 +13,15 @@
       function loadFunc() {
          alert("The page has loaded." + new Date());
       }
+      function sniffer(message) {
+         console.log("something happened! " + message);
+      }
    
    </script>
 </head>
-<body onload="loadFunc()">
+<body onResize="sniffer('window resize')">
+    <input type="text" onchange="alert('it changed!')">
+    <button id="butt" type="button" onclick="sniffer('button clicked')">Magic button</button>
     <div id="allcontent">
        <h1>Hail To The Strat Partcaster</h1>
        <p class="why">The Strat is the most versatile guitar for
@@ -31,7 +36,7 @@
     <div id=
        <div id="history">
          <h3>A Bit Of History</h3>
-         <p onclick="lilHistory('History')">The Fender Stratocaster first came to light in
+         <p onclick="sniffer('History')">The Fender Stratocaster first came to light in
             1954 thanks to the collaboration between Leo Fender, George Fullerton
             and Freddie Tavares. Today the Strat is one of the most iconic
             if not the most iconic electric guitar ever created.
@@ -39,7 +44,7 @@
       </div>
       <div id="platform">
        <h3>A Modding Platform</h3>
-       <p onmouseover="favGuitar('you know you like strats!')">
+       <p onmouseover="sniffer('you know you like strats!')">
           The Strat was designed to be easily mass produced. Because of this
           it is also easy for other manufacturers to recreate this iconic
           instrument. Today aftermarket companies like <a href="http://www.warmoth.com/" target="_blank">Warmoth</a>,
@@ -49,7 +54,7 @@
        </p>
       </div>
 
-       <p>
+       <p onkeypress="sniffer('You pressed a key')">
           One of the main reasons the Strat lends itself to mods is the
           size of the pickguard.
        </p>
