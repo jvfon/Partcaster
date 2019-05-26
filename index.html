@@ -4,7 +4,7 @@
    <title>Hail To The Partcaster</title>
    <link href="partcaster.css" rel="stylesheet" type="text/css">
    <script>
-      function favGuitar(message) {
+     /* function favGuitar(message) {
          prompt("What's your favorite guitar?", "My favorite guitar is... " + message);
       }
       function lilHistory(message) {
@@ -15,13 +15,13 @@
       }
       function sniffer(message) {
          console.log("something happened! " + message);
-      }
+      } */
    
    </script>
 </head>
 <body onResize="sniffer('window resize')">
     <input type="text" onchange="alert('it changed!')">
-    <button id="butt" type="button" onclick="sniffer('button clicked')">Magic button</button>
+    <button id="butt" type="button">Magic button</button>
     <div id="allcontent">
        <h1>Hail To The Strat Partcaster</h1>
        <p class="why">The Strat is the most versatile guitar for
@@ -44,7 +44,7 @@
       </div>
       <div id="platform">
        <h3>A Modding Platform</h3>
-       <p onmouseover="sniffer('you know you like strats!')">
+       <p id="secondP">
           The Strat was designed to be easily mass produced. Because of this
           it is also easy for other manufacturers to recreate this iconic
           instrument. Today aftermarket companies like <a href="http://www.warmoth.com/" target="_blank">Warmoth</a>,
@@ -71,5 +71,15 @@
           guitar pickups.
        </p>
    </div>
+
+   <script>
+      document.getElementById("butt").onclick=function(){
+         sniffer('button clicked');
+      }
+      document.getElementById('secondP').onmouseover=function(){
+         alert('innerP');
+         console.log("Log the anonimouse inner function on secondP") ;
+      }
+   </script>
 </body>
 </html>
