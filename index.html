@@ -3,13 +3,13 @@
 <head>
    <title>Hail To The Partcaster</title>
    <link href="partcaster.css" rel="stylesheet" type="text/css">
-   
-   <script src="partcaster.js"></script>
+
+  
 
 </head>
 <body onResize="sniffer('window resize')">
     <input type="text" onchange="alert('it changed!')">
-    <button id="butt" type="button">Magic button</button>
+    <button id="bt" type="button">Magic button</button>
     <div id="allcontent">
        <h1>Hail To The Strat Partcaster</h1>
        <p class="why">The Strat is the most versatile guitar for
@@ -21,10 +21,10 @@
          <img id="guitar" src="img/strat.jpg" alt="strat" class="center">
          <img id="necks" src="img/stratNecks.jpg" alt="strat neck">
        </div>
-    <div id=
+    <div>
        <div id="history">
          <h3>A Bit Of History</h3>
-         <p onclick="sniffer('History')">The Fender Stratocaster first came to light in
+         <p id="history">The Fender Stratocaster first came to light in
             1954 thanks to the collaboration between Leo Fender, George Fullerton
             and Freddie Tavares. Today the Strat is one of the most iconic
             if not the most iconic electric guitar ever created.
@@ -42,13 +42,13 @@
        </p>
       </div>
 
-       <p onkeypress="sniffer('You pressed a key')">
+       <p>
           One of the main reasons the Strat lends itself to mods is the
           size of the pickguard.
        </p>
 
        <h3>The Most Important Component</h3>
-       <P>
+       <P id="pickups">
           Besides bodies and necks other companies have sprung up to meet the
           demand of musicians looking for a different sound. Bill Lawrence founder of
           <a href="http://wildepickups.com/" target="_blank">Wilde Pickups</a> was one of the
@@ -60,14 +60,6 @@
        </p>
    </div>
 
-   <script>
-      document.getElementById("butt").onclick=function(){
-         sniffer('button clicked');
-      }
-      document.getElementById('secondP').onmouseover=function(){
-         alert('innerP');
-         console.log("Log the anonimouse inner function on secondP") ;
-      }
-   </script>
+   <script src="partcaster.js"></script>
 </body>
 </html>
