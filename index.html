@@ -3,21 +3,9 @@
 <head>
    <title>Hail To The Partcaster</title>
    <link href="partcaster.css" rel="stylesheet" type="text/css">
-   <script>
-      function favGuitar(message) {
-         prompt("What's your favorite guitar?", "My favorite guitar is... " + message);
-      }
-      function lilHistory(message) {
-         prompt("Some history", "Read " + message);
-      }
-      function loadFunc() {
-         alert("The page has loaded." + new Date());
-      }
-      function sniffer(message) {
-         console.log("something happened! " + message);
-      } 
    
-   </script>
+   <script src="partcaster.js"></script>
+
 </head>
 <body onResize="sniffer('window resize')">
     <input type="text" onchange="alert('it changed!')">
