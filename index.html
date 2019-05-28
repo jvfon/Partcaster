@@ -3,11 +3,16 @@
 <head>
    <title>Hail To The Partcaster</title>
    <link href="partcaster.css" rel="stylesheet" type="text/css">
+   <script>
+      var email = "don@yahoo.com";
+      var allEmails = email.indexOf("@");
 
+      console.log(allEmails);
+   </script>
   
 
 </head>
-<body onResize="sniffer('window resize')">
+<body id="wholePage">
     <input type="text" onchange="alert('it changed!')">
     <button id="bt" type="button">Magic button</button>
     <div id="allcontent">
