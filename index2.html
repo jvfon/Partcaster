@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Hail To The Partcaster</title>
+   <link href="partcaster.css" rel="stylesheet" type="text/css">
+   <script>
+     
+      function sniffer(message) {
+         console.log("something happened! " + message);
+      } 
+   
+   </script>
+</head>
+<body>
+    <input type="text">
+    <button id="bt" type="button">Magic button</button>
+    <div id="allcontent">
+       <h1>Hail To The Strat Partcaster</h1>
+       <p class="why">The Strat is the most versatile guitar for
+          mods.
+       </p>
+
+       <div id="pics">
+         <img id="body" src="img/strat2.jpg" alt="strat body">
+         <img id="guitar" src="img/strat.jpg" alt="strat" class="center">
+         <img id="necks" src="img/stratNecks.jpg" alt="strat neck">
+       </div>
+    <div>
+      <div id="platform">
+       <h3>A Modding Platform</h3>
+       <p id="secondP">
+          The Strat was designed to be easily mass produced. Because of this
+          it is also easy for other manufacturers to recreate this iconic
+          instrument. Today aftermarket companies like <a href="http://www.warmoth.com/" target="_blank">Warmoth</a>,
+          <a href="http://www.usacustomguitars.com/" target="_blank">USA Custom Guitars</a>
+          and <a href="https://www.allparts.com/" target="_blank">AllParts</a> to name a few are
+          serve guitar player who love to tinker.
+       </p>
+      </div>
+
+       <p>
+          One of the main reasons the Strat lends itself to mods is the
+          size of the pickguard.
+       </p>
+
+       <h3>The Most Important Component</h3>
+       <P>
+          Besides bodies and necks other companies have sprung up to meet the
+          demand of musicians looking for a different sound. Bill Lawrence founder of
+          <a href="http://wildepickups.com/" target="_blank">Wilde Pickups</a> was one of the
+          pioneers of aftermarket pickups.
+          <a href="https://www.seymourduncan.com/" target="_blank">Seymour Duncan Company</a> and
+          <a href="https://www.dimarzio.com/" target="_blank">DiMarzio Inc.</a>
+          are also two companies who have decades of experience manufacturing amazing
+          guitar pickups.
+       </p>
+   </div>
+
+   <script>
+      document.getElementById("bt").onclick=function(){
+         sniffer("button clicked");
+      }
+     document.getElementById('secondP').onclick=function(){
+         alert('innerP');
+         console.log("Log the anonimouse inner function on secondP") ;
+      }
+   </script>
+</body>
+</html>

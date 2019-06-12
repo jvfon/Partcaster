@@ -10,4 +10,12 @@ function favGuitar(message) {
  function sniffer(message) {
     console.log("something happened! " + message);
  } 
- 
+
+
+ document.getElementById("butt").onclick=function(){
+    sniffer('button clicked');
+ }
+ document.getElementById('secondP').onmouseover=function(){
+    alert('innerP');
+    console.log("Log the anonimouse inner function on secondP") ;
+ }
