@@ -18,7 +18,7 @@ body {
     background-image: linear-gradient(to right bottom, rgba(255, 104, 4, 0.8), rgba(26, 10, 0, 0.8)), url("../img/strat.jpg");
     background-size: cover;
     background-position: center;
-    positoin: relative;
+    position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
@@ -27,11 +27,14 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
     color: rgb(214, 213, 213);
     text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 35px;
 }
 
 .heading-primary-first {
@@ -98,4 +101,28 @@ body {
         opacity: 1;
         transform: translatex(0px);
     }
+}
+
+.btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
 }
