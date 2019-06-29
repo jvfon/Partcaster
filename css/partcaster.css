@@ -50,7 +50,7 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 25px;
-    animation: leftToRight 1s ease-out; 1s ease-out;
+    animation: leftToRight 1s ease-out;
 }
 
 .heading-primary-sub {
@@ -58,7 +58,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 13.4px;
-    animation: rightToLeft 1s ease-out; 1s ease-out;
+    animation: rightToLeft 1s ease-out;
 }
 
 @keyframes UpDown {
@@ -109,7 +109,6 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
-
     100% {
         opacity: 1;   
         transform: translateY(0);
