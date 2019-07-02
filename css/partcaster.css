@@ -167,6 +167,10 @@ body {
     animation-fill-mode: backwards;
 }
 
+ul {
+    list-style-type: none; /* removes dots */
+}
+
 a:link {
     text-decoration: none;
     color: rgb(51, 51, 51);
