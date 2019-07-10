@@ -184,13 +184,13 @@ a:active {
 }
 
 a:hover {
-    
-    color: rgb(1, 57, 131);
+    text-decoration: underline;
+    color: rgb(199, 106, 0);
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(51, 51, 51);
+    color: rgb(128, 69, 2);
 }
 
 #main {
