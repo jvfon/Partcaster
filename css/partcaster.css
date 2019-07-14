@@ -198,10 +198,15 @@ a:visited {
     color: rgb(128, 69, 2);
 }
 
-#main {
+#background {
     width: 80%;
 }
 
 img {
     height: 350px;
 }
+
+#instruction {
+    background-color: rgb(0, 72, 167)
+}
+
