@@ -202,27 +202,45 @@ a:visited {
     width: 80%;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 img {
     height: 350px;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 500px)); /*(# or columns, size) */
+    /* (auto-fill, sizepx) css figures out the amount of columns based on the size */
+    /* (auto-fit, sizepx) auto-fit won't generate extra columns  */
+    /*(auto-fit, minmax( )) minmax let us definea min. and max. value a picture should have */   */
+
+    grid-template-rows: 1fr 1fr;
     height: 100vh;
     grid-template-areas:
-        "box1 box3"
-        "box2 box4"
-        ". box5";
+        "box1 box2";
+        
+    
 }
 
-#suppliers {
+#menu {
     grid-area: box1;
+    width: 60%;
+    /* background-image: linear-gradient(to right bottom, rgba(202, 98, 0, 0.8), rgba(1, 163, 204, 0.8))); */
+    background-color: rgba(202, 98, 0, 0.431);
+    color: rgb(51, 51, 51);
+    padding: 20px;
+    margin: 20px 10px 20px 0px;
 }
 
-#youtube {
+#main-part {
     grid-area: box2;
+    background-color: rgba(1, 163, 204, 0.8); 
+    padding: 35px;
+    margin: 20px 0px 0px 10px;
+    width: 80%;
 }
 
 #background {
