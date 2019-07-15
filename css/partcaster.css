@@ -16,7 +16,7 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(202, 98, 0, 0.8), rgba(1, 163, 204, 0.8)), url("../img/strat.jpg");
+    background-image: linear-gradient(to right bottom, rgba(202, 81, 0, 0.8), rgba(1, 163, 204, 0.8)), url("../img/strat.jpg");
 
     background-size: cover;
     background-position: center;
@@ -207,7 +207,7 @@ h1, h2 {
 }
 
 img {
-    height: 350px;
+    height: 200px;
 }
 
 main {
@@ -215,20 +215,17 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(250px, 500px)); /*(# or columns, size) */
     /* (auto-fill, sizepx) css figures out the amount of columns based on the size */
     /* (auto-fit, sizepx) auto-fit won't generate extra columns  */
-    /*(auto-fit, minmax( )) minmax let us definea min. and max. value a picture should have */   */
+    /*(auto-fit, minmax( )) minmax let us definea min. and max. value a picture should have */  
 
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
     height: 100vh;
-    grid-template-areas:
-        "box1 box2";
-        
-    
+    grid-template-areas: "box1 box2";   
 }
 
 #menu {
     grid-area: box1;
     width: 60%;
-    background-image: linear-gradient(to right, rgba(202, 98, 0, 0.8), rgba(1, 163, 204, 0.8)); 
+    /* background-image: linear-gradient(to right, rgba(202, 40, 0, 0.5), rgba(1, 163, 204, 0.8));  */
     color: rgb(51, 51, 51);
     padding: 20px;
     margin: 20px 10px 20px 0px;
@@ -236,7 +233,7 @@ main {
 
 #main-part {
     grid-area: box2;
-    background-image: linear-gradient(to right, rgba(1, 163, 204, 0.8), rgba(202, 98, 0, 0.8)); 
+    /* background-image: linear-gradient(to right, rgba(1, 163, 204, 0.8), rgba(202, 40, 0, 0.8));  */
     padding: 35px;
     margin: 20px 0px 0px 10px;
     width: 80%;
