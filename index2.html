@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/partcaster2.css">
+   <title>Document</title>
+</head>
+<body>
+   <!-- side panel -->
+   <div class="side-panel">
+      <div class="search">
+         <form action="" class="search"> <br>
+          Search: <br>
+            <input type="search" name="parts-search">
+         </form>
+      </div> <br>
+
+      <div class="categories">
+         <form action="" class="categories"> <br>
+          Categories: <br>
+            <select name="parts" id=""> <br>
+               <option value="body">Body</option>
+               <option value="neck">Neck</option>
+               <option value="pickguard">Pickguard</option>
+               <option value="hardware">Hardware</option>
+               <option value="electronics">Electronics</option>
+               <option value="pickups">Pickups</option>
+            </select>
+            <input type="submit">
+       </form>  <br>
+
+         <!-- Pull down menu categories -->
+         <form action="/action_page.php" class="list">
+            <input list="parts" name="parts">
+            <datalist id="parts">
+               <option value="Body">
+               <option value="Neck">
+               <option value="Pickguard">
+               <option value="Harware">
+               <option value="Electronics">
+               <option value="Pickups">
+            </datalist>
+            <input type="submit">
+         </form> 
+      </div>  <br>
+
+      <!-- tutorials -->
+      Tutorials:
+      <div class="tutorials">
+         <div class="body-neck">
+            <p class="body-neck">how to attach the neck to the body</p>
+         </div>
+         <div class="wire">
+            <p class="wire-pickups">how to wire pickups</p>
+         </div>
+         <div class="hardware">
+            <p class="hardware">how to install the hardware</p>
+         </div>
+      </div>  <br>
+
+      <!-- contact info -->
+      <div class="contact">
+        Contact us: 
+         <form action="" class="contact"> <br>
+            First Name: <br>
+         <input type="text" name="fistname"><br>
+            Last Name: <br>
+            <input type="text" name="lastname"> <br>
+            Email: <br>
+            <input type="email" name="eamil"> <br>
+         </form>
+      </div>   
+   </div>
+
+   <h1>DYI strat partcaster</h1>
+
+   <div class="main">
+      <div class="category-main">
+         <h2>category:</h2>
+      </div>
+   </div>
+
+   <div class="main">
+      <p class="products">products</p>
+      <div class="col-1">
+
+      </div>
+      <div class="col-2">
+
+      </div>
+      <div class="col-3">
+
+      </div>
+   </div>
+</body>
+</html>
