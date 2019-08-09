@@ -12,7 +12,7 @@ body {
 /* fonts */ 
 h1, h2 {
    font-family: 'Montserrat', sans-serif;
-   background-color: rgb(255, 192, 119);
+   background-color: rgb(204, 204, 204);
    width: 100%;
 }
 
@@ -21,7 +21,7 @@ p {
 }
 
 .side-panel {
-   background-color: rgb(188, 255, 235);
+   background-color: rgb(136, 136, 136);
    width: 22%;
    float: left;
 }
