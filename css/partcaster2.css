@@ -36,12 +36,17 @@ p {
 
 .box1 {
    background-color: rgb(255, 103, 103);
+   
 }
 
 .box2 {
    background-color: rgb(81, 120, 247);
+   
 }
 
 .box3 {
    background-color: rgb(86, 255, 63);
-}
+   grid-column-start: 1;
+   grid-column-end: 3; 
+   grid-column: 1/3;
+} 
