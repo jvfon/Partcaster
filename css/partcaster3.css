@@ -6,6 +6,32 @@
 
 body {   
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 200px auto auto;
+   grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+   height: 100vh;
+}
+
+.header {
+   
+   background-color: rgb(231, 231, 231);
+   grid-column: 1/4;
+   grid-row: 1/2;
+}
+
+.menu {
+   background-color: rgb(78, 78, 78);
+   grid-column: 1/2;
+   grid-row: 2/4;
+}
+
+.main {
+   background-color: #777;
+   grid-column: 2/3;
+   grid-row: 2/4;
+}
+
+.footer {
+   background-color: rgb(61, 61, 61);
+   grid-column: 1/4;
+   grid-row: 3/4;
 }
