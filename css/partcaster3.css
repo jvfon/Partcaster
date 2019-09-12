@@ -11,8 +11,7 @@ body {
    height: 100vh;
 }
 
-.header {
-   
+.hero {
    background-color: rgb(231, 231, 231);
    grid-column: 1/4;
    grid-row: 1/2;
