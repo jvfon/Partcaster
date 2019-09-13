@@ -7,10 +7,11 @@
 }
 
 body {   
+   font-size: 16px;
    font-family: "Ubuntu", sans-serif;
    display: grid;
    grid-template-columns: 200px auto auto;
-   grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+   grid-template-rows: 0.5fr 1fr 1fr 1fr;
    height: 100vh;
 } 
 
@@ -53,4 +54,6 @@ body {
    background-color: rgb(61, 61, 61);
    grid-column: 1/4;
    grid-row: 3/4;
+   color: rgb(231, 231, 231);
+   padding: 0.5rem 0 0.5rem 1rem;
 }
