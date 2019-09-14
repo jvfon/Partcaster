@@ -12,3 +12,11 @@
    grid-template-rows: repeat(3, 1fr);
    grid-gap: 10px;
 }
+
+.one {
+   border-style: solid;
+   border-collapse: blue;
+   grid-column: 1/3;
+   grid-row: 1;
+}
+
